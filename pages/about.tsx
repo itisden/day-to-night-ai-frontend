@@ -1,8 +1,13 @@
+import Head from "next/head";
 import ConversionResult from "@/components/conversion-result";
 
 export default function About() {
   return (
     <main className="container mx-auto">
+      <Head>
+        <title>About Day To Night AI</title>
+        <meta name="description" content="About Day To Night AI Service" />
+      </Head>
       <div className="section">
         <div className="prose lg:prose-xl mt-16 mx-auto">
           <h1 className="mt-10">About Day To Night AI Service</h1>
