@@ -8,7 +8,7 @@ export default function Banner(props: Props) {
       <Image
         src="/house.jpeg"
         alt="Picture of house in the daytime"
-        className="object-cover min-h-screen"
+        className="object-cover h-screen"
         width={2400}
         height={1600}
       />
